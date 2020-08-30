@@ -2,6 +2,9 @@
   background-color: #131921;
   display:flex;
   align-items: center;
+  position:sticky;
+  top:0;
+  z-index:100;
 }
 
 .header_logo{
@@ -11,6 +14,10 @@
   margin-left:20px;
   object-fit:contain;
 
+}
+.header_optionBasket{
+  display:flex;
+  align-items: center;
 }
 
 .header_search{
@@ -26,8 +33,23 @@
 .header_option{
   display:flex;
   flex-direction: column;
+  margin-left:10px;
+  margin-right:10px;
 }
 
+.header_optionLineone{
+  font-size:10px;
+}
+
+.header_basketCount{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.header_optionLinetwo{
+  font-size:13px;
+  font-weight: 800;
+}
 .header_link{
   color:white;
   text-decoration:none;
