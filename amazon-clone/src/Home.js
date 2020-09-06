@@ -50,10 +50,19 @@ function Home() {
         />
         <Product
           id="12345"
-          title="Mercedez Benz Car "
-          price={11.96}
+          title="Mitsubishi Pajero "
+          price={14.96}
           rating={5}
-          image="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2FC-ClassModelImage.jpg&h=300&w=450&q=100"
+          image="https://www.mitsubishi-motors.com.au/uploads/mmal_assets/vehicles/pajero/2020/5-door-suv-7-seat/gls-leather-option/4wd/white-solid/1250x770/001.png"
+        />
+      </div>
+      <div>
+        <Product
+          id="12345"
+          title="Hummer 2020 "
+          price={18.96}
+          rating={5}
+          image="https://i.pinimg.com/originals/d3/d1/50/d3d150222a4701e08de395cd26a6691d.jpg"
         />
       </div>
     </div>
