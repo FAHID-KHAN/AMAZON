@@ -8,7 +8,8 @@ const reducer = (state, action) => {
     case "ADD_TO_BASKET":
       //logic for adding item to basket
       return {
-        state,
+        ...state,
+        basket:[...state.basket,action.item]
       };
       break;
     //logic for removing basket
